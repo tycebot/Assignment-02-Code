@@ -31,6 +31,13 @@ public final class Color {
     public Color() {
     }
 
+    static void changeColor(String string){
+        System.out.println(ANSI_PURPLE_BACKGROUND+ANSI_YELLOW+string+ANSI_RESET);
+    }
+
+    public Object getColorSequences() {
+        return null;
+    }
     //
     // Static Methods
     //

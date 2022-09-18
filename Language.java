@@ -25,7 +25,7 @@ public final class Language {
     // Static Data Fields
     //    
     private static final String defaultAlienSound = "~ ąļīæń ~ "; // Default
-
+    private String language;
     //
     // Instance Data Fields
     //
@@ -42,10 +42,57 @@ public final class Language {
             case "chinese" -> this.populateChinesePhrases();        // Future implementation
             case "french" -> this.populateFrenchPhrases();          // Future implementation
             case "spanish" -> this.populateSpanishPhrases();        // Future implementation
-            case "future" -> this.populateYourLanguagePhrases();    // Future implementation
+            //case "future" -> this.populateYourLanguagePhrases();    // Future implementation
             default -> this.populateEnglishPhrases();               // Supported
         }
 
+    }
+
+    public static Language setLanguagePreference() {
+
+        return null;
+    }
+
+    public static void displayAppHeader() {
+    }
+
+    private void populateSpanishPhrases() {
+    }
+
+    private void populateFrenchPhrases() {
+    }
+
+    private void populateChinesePhrases() {
+    }
+
+    private void populateEnglishPhrases() {
+    }
+
+    private void populateAlienPhrases() {
+    }
+
+    public String getGreetingPhrase(int i) {
+        return null;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    public Object getUniversityPhrase(int i) {
+        return null;
+    }
+
+    public Object getClubPhrase(int i) {
+        return null;
+    }
+
+    public String getConfigPhrase(int i) {
+        return null;
     }
 
     //

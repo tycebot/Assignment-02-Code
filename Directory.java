@@ -28,6 +28,10 @@ public final class Directory {
     public Directory() {
     }
 
+    public Object getPath() {
+        return null;
+    }
+
     //
     // Static Methods
     //

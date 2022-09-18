@@ -21,7 +21,8 @@ public sealed abstract class Person implements Greeting permits Student, Player,
     //
     // Instance Data Fields
     //
-
+    private String firstName;
+    private String lastName;
     //
     // Constructors
     //

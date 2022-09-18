@@ -12,7 +12,28 @@ package assignment02PartB;
 // Please organize all the given files in 1 same package
 // Please make sure to read the provided "_ListOf-PleaseDoNotChange.txt"
 
+import java.io.IOException;
+import java.io.OutputStream;
+
 public class StdOutStdErrTee extends OutputStream {
+    public Object getStdOutFilePath() {
+        return null;
+    }
+
+    public Object getStdErrFilePath() {
+        return null;
+    }
+
+    @Override
+    public void write(int b) throws IOException {
+
+    }
+
+    public void startLog() {
+    }
+
+    public void stopLog() {
+    }
 
     //
     // Static Data Fields
