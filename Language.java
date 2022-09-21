@@ -54,6 +54,7 @@ public final class Language {
     }
 
     public static void displayAppHeader() {
+            System.out.println(Config.getOfficialAppHeader());
     }
 
     private void populateSpanishPhrases() {

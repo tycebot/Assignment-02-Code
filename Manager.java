@@ -17,13 +17,16 @@ public final class Manager extends Person {
     //
     // Instance Data Fields
     //
-
+    FrontOffice frontOffice;
     //
     // Constructors
     //
     public Manager() {
     }
-
+    public Manager(String firstname,String lastname){
+        super(firstname,lastname);
+        this.frontOffice=new FrontOffice();
+    }
     @Override
     public void sayGreeting(String string) {
 
@@ -32,7 +35,13 @@ public final class Manager extends Person {
     //
     // Instance Methods
     //
+    public FrontOffice getFrontOffice() {
+        return frontOffice;
+    }
 
+    public void setFrontOffice(FrontOffice frontOffice) {
+        this.frontOffice = frontOffice;
+    }
     //
     // Language
     //

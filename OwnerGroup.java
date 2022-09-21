@@ -16,13 +16,20 @@ public final class OwnerGroup extends Organization{
     //
     // Data fields
     //
-
+    private String owners;
     //
     // Constructors
     //
     public OwnerGroup() {
+
+    }
+    public OwnerGroup(String owners){
+        this.owners=owners;
     }
 
+    //
+    // Instance Methods
+    //
     @Override
     public void displayAbout() {
 
@@ -33,9 +40,14 @@ public final class OwnerGroup extends Organization{
 
     }
 
-    //
-    // Instance Methods
-    //
+    public String getOwners() {
+        return owners;
+    }
+
+    public void setOwners(String owners) {
+        this.owners = owners;
+    }
+
 
     //
     // Override

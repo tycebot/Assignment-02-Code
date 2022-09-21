@@ -35,8 +35,8 @@ public final class Color {
         System.out.println(ANSI_PURPLE_BACKGROUND+ANSI_YELLOW+string+ANSI_RESET);
     }
 
-    public Object getColorSequences() {
-        return null;
+    public String getColorSequences() {
+        return "ANSI";
     }
     //
     // Static Methods
